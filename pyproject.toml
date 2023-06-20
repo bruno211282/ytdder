@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ytdder"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytube = "^15.0.0"
+pyqt6-qt6 = "^6.4"
+
+[tool.poetry.group.dev.dependencies]
+pyqt6-tools = "^6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
