@@ -14,7 +14,11 @@ pyqt6-qt6 = "^6.4"
 pyqt6-tools = "^6"
 pydocstyle = "^6.3.0"
 flake8 = "^6.0.0"
+flake8-pyproject = "^1.2.3"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 120
